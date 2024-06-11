@@ -38,12 +38,11 @@ export default async function handler(req, res) {
     const out = fs.createWriteStream(fullPathSaveFile);
     const stream = canvas.createJPEGStream();
     stream.pipe(out);
-
+    
     out.on('finish', () => {
         res.status(200).json({ image: uniqueFileName, name: Name });
     });
-
+    
     out.on('error', (err) => {
         res.status(500).json({ message: 'Image generation failed', error: err });
     });
-}
