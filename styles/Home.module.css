@@ -1,0 +1,180 @@
+/* .container {
+  direction: rtl;
+
+  text-align: right;
+  font-family: 'Kufam', sans-serif;
+  background-image: url('/images/colored pattern-02.png');
+  background-size: cover;
+  padding: 20px;
+  background-color: rgb(86, 159, 188);
+} */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('/images/colored pattern-02.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.form-wrapper {
+  background-color: rgba(255, 255, 255, 0.846); /* semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+.title {
+  color: #003366;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: 'Kufam',sans-serif;
+  font-weight: bold;
+}
+.textCenter {
+  color: #003366;
+  font-family: 'Kufam';
+  text-align: center;
+}
+.textRight {
+  color: #52677c;;
+  font-family: 'Kufam';
+  text-align: right;
+  
+}
+
+.textCenter {
+  color: #52677c;
+  text-align: center;
+  font-size: 15px;
+}
+
+.marginTopNegative {
+  /* margin-top: -100px; */
+  margin-top: -1px;
+  
+}
+
+/* .marginTopSmNegative {
+  margin-top: -50px;
+}
+
+.form {
+  direction: rtl;
+}
+
+.formControl {
+  margin-top: 20px;
+  font-weight: 500;
+  font-family: 'Kufam', sans-serif;
+}
+
+.formCheckLabel {
+  margin-right: 15px;
+  font-weight: 500;
+  font-family: 'Kufam', sans-serif;
+}
+
+.radioImg {
+  display: contents;
+}
+
+.radioImage {
+  background-size: cover;
+  width: 100px; 
+  height: 100px; 
+}
+
+.btnSubmit {
+  background-color: #1A3658;
+  color: white;
+  font-weight: 500;
+  font-family: 'Kufam', sans-serif;
+} */
+
+
+.marginTopSmNegative {
+  margin-top: -1px;
+}
+
+.form {
+  display: flex;
+  color: #003366;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.textRight {
+  color:#52677c;;
+  text-align: right;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  background-color:  #003366;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: right;
+}
+
+.form-check-input {
+  margin-right: 10px;
+  text-align: right;
+  color: #f7f8fa;
+  /* background-color: aquamarine; */
+}
+
+.form-check-label {
+  
+    color:#52677c;;
+  display: inline-block;
+  vertical-align: middle;
+}
+.radioImg {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items vertically */
+    margin-right: 20px; /* Add space between the radio button sets */
+}
+
+.radioGroup {
+    display: flex; /* Display radio buttons and images in a row */
+    justify-content: space-around; /* Distribute space evenly around items */
+    width: 100%;
+    margin-bottom: 20px; /* Add some space below the radio button group */
+}
+
+.radioImage {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Add some space between the radio button and the image */
+}
+
+.btnSubmit {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Kufam';
+}
+
+.btnSubmit:hover {
+   font-family: 'Kufam';
+  background-color: #003366;
+}
