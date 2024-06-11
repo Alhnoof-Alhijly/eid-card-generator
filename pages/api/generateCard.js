@@ -25,12 +25,12 @@ export default async function handler(req, res) {
     const ctx = canvas.getContext('2d');
     ctx.drawImage(bitmap, 0, 0, bitmap.width, bitmap.height);
 
-    ctx.font = ' 80px ';
+    ctx.font = '40px "GE SS Two Light"';
     ctx.textAlign = 'center';
     ctx.fillStyle = '#fff';
 
     ctx.fillText(Name, bitmap.width / 2, bitmap.height - 500);
-    ctx.font = ' 80px ';
+    ctx.font = '28px "GE SS Two Light"';
     ctx.fillText(Kind, bitmap.width / 2, bitmap.height - 550);
 
     const uniqueFileName = `${uuidv4()}_${Name}.jpg`;
