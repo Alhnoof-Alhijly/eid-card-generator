@@ -38,76 +38,7 @@ export default function Home() {
         }
     };
 
-//     return (
-//         <div className={styles.container}>
-//             <h1 className="title">صورة تهنئة لعيد الأضحى المبارك</h1>
-//             <p className="textCenter marginTopNegative " >
-//                 يتقدم رئيس وأعضاء مجلس الإدارة والأمين العام لغرفة المدينة المنورة وجميع منسوبيها بتهنئتكم بحلول عيد الأضحى المبارك
-//             </p>
-//             <p className="textCenter marginTopSmNegative " >
-//                 ادخل اسمك واحصل على كرت خاص بك
-//             </p>
-//             <form onSubmit={handleSubmit} className="form" >
-//                 <div className="form-group textRight ">
-//                     <input
-//                         name="Name"
-//                         id="Name"
-//                         className="form-control formControl "
-                      
-//                         placeholder="الاسم"
-//                         value={name}
-//                         onChange={(e) => setName(e.target.value)}
-//                     />
-//                 </div>
-//                 <div  className="form-check textRight">
-//                     <input
-//                         className="form-check-input"
-//                         type="checkbox"
-//                         name="CheckCard"
-//                         id="CheckCard"
-//                         checked={checkCard}
-//                         onChange={(e) => setCheckCard(e.target.checked)}
-//                     />
-//                     <label className= "form-check-label formCheckLabel " htmlFor="CheckCard">
-//                         البطاقة غير الرسمية
-//                     </label>
-//                 </div>
-//                 <hr />
-//                 <h3  className= "textRight ">نوع البطاقة</h3>
-//                 <div className="form-check textRight">
-//                     <label  className="radioImg ">
-//                         <input
-//                             type="radio"
-//                             className="form-check-input"
-//                             name="cardType"
-//                             value="1"
-//                             onChange={(e) => setCardType(e.target.value)}
-//                         />
-//                         <div className={`${styles.image} ${styles.radioImage}`} style={{ backgroundImage: 'url(/images/eid-1-2024.jpg)' }}></div>
-//                     </label>
 
-//                     <label className={styles.radioImg}>
-//                         <input
-//                             type="radio"
-//                             className="form-check-input"
-//                             name="cardType"
-//                             value="2"
-//                             onChange={(e) => setCardType(e.target.value)}
-//                         />
-//                         <div className={`${styles.image} ${styles.radioImage}`} style={{ backgroundImage: 'url(/images/eid-2-2024.jpg)' }}></div>
-//                     </label>
-//                 </div>
-//                 <div className="form-group">
-//                     <input
-//                         type="submit"
-//                         value="تحميل البطاقة"
-//                         className="btn btn-lg mb-3 btnSubmit" 
-//                     />
-//                 </div>
-//             </form>
-//         </div>
-//     );
-// }
 return (
     <div className={styles.container}>
         <div className={styles['form-wrapper']}>
