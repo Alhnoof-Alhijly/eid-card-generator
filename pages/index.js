@@ -24,15 +24,18 @@ export default function Home() {
                 cardType,
             });
 
-            // Create a link element
+            // Get the generated image filename from the response
+            const imageFileName = response.data.image;
+            
+            // Create a link element for download
             const link = document.createElement('a');
-            link.href = `/img/Upload/${response.data.image}`;
-            link.download = 'your_card_image.jpg'; // You can set the desired filename here
+            link.href = `/img/Upload/${imageFileName}`;
+            link.download = imageFileName; // Name the file to download
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         } catch (error) {
-            console.error(error);
+            console.error('Error generating card:', error);
         }
     };
 
